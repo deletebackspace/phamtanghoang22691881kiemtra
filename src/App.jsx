@@ -3,6 +3,7 @@ import Navbar from './pages/Navbar'
 import Slideshow from './pages/Slideshow'
 import Content from './pages/Content'
 import InfoSection from './pages/InfoSection'
+import Footer from './pages/Footer'
 
 const App = () => {
     return (
@@ -12,6 +13,7 @@ const App = () => {
             <Slideshow/>
             <Content/>
             <InfoSection/>
+            <Footer/>
         </div>
     );
 };
