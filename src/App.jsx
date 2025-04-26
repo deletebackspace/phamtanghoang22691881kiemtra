@@ -1,14 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-
-function App() {
+import Header from './pages/Header'
 
 
-  return (
-    <>
-      
-    </>
-  )
-}
+const App = () => {
+    return (
+        <div className="min-h-screen">
+            <Header />
+        </div>
+    );
+};
 
-export default App
+export default App;
